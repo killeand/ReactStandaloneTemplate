@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>React Standalone Template Example</title>
+        <meta charset="UTF-8" />
+
+        <style media="all">
+            
+        </style>
+
+        <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react/umd/react.production.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react-router-dom/umd/react-router-dom.min.js"></script>
+        <script type="text/babel" data-presets="react">
+            const { Component } = React;
+
+            class Application extends Component {
+                render() {
+                    return (
+                        <p>Sample Text...</p>
+                    );
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <script type="text/babel">
+            ReactDOM.render(<Application />, document.body);
+        </script>
+    </body>
+</html>
