@@ -5,7 +5,7 @@
         <meta charset="UTF-8" />
 
         <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="https://unpkg.com/bootstrap-icons/font/bootstrap-icons.css" />
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-icons@1.7.0/font/bootstrap-icons.css" />
         <style media="all">
             .title {
                 border-left: 1px solid #000000;
@@ -18,18 +18,18 @@
             }
         </style>
 
-        <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-        <script crossorigin src="https://unpkg.com/react/umd/react.production.min.js"></script>
-        <script crossorigin src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"></script>
+        <script crossorigin src="https://unpkg.com/@babel/standalone@7.16.2/babel.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
         <script crossorigin src="https://unpkg.com/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-        <script crossorigin src="https://unpkg.com/@popperjs/core/dist/umd/popper.min.js"></script>
+        <script crossorigin src="https://unpkg.com/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
         <script crossorigin src="https://unpkg.com/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
-        <script crossorigin src="https://unpkg.com/react-bootstrap/dist/react-bootstrap.min.js"></script>
-        <script crossorigin src="https://unpkg.com/react-router-dom@5.3.4/umd/react-router-dom.min.js"></script>
-        <script crossorigin src="https://unpkg.com/ace-builds/src-min-noconflict/ace.js"></script>
-        <script crossorigin src="https://unpkg.com/ace-builds/src-min-noconflict/mode-html.js"></script>
-        <script crossorigin src="https://unpkg.com/ace-builds/src-min-noconflict/theme-monokai.js"></script>
-        <script crossorigin src="https://unpkg.com/react-ace/dist/react-ace.min.js/main.js"></script>
+        <script crossorigin src="https://unpkg.com/react-bootstrap@2.0.2/dist/react-bootstrap.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react-router-dom@5.3.0/umd/react-router-dom.min.js"></script>
+        <script crossorigin src="https://unpkg.com/ace-builds@1.4.13/src-min-noconflict/ace.js"></script>
+        <script crossorigin src="https://unpkg.com/ace-builds@1.4.13/src-min-noconflict/mode-html.js"></script>
+        <script crossorigin src="https://unpkg.com/ace-builds@1.4.13/src-min-noconflict/theme-monokai.js"></script>
+        <script crossorigin src="https://unpkg.com/react-ace@9.5.0/dist/react-ace.min.js/main.js"></script>
         <script type="text/babel" data-presets="react">
             const { Component, Fragment } = React;
             const { Navbar, Nav, Container, Spinner } = ReactBootstrap;
