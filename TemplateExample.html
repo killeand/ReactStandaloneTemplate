@@ -11,25 +11,23 @@
     <body>
         <div id="root"></div>
         
-        <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-        <script crossorigin type="text/babel" src="https://unpkg.com/react/umd/react.development.js"></script>
-        <script crossorigin type="text/babel" src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
-        <script crossorigin type="text/babel" data-plugins="transform-modules-umd" data-presets="react">
-            import * as ReactRouterDOM from 'https://unpkg.com/react-router-dom/dist/react-router-dom.development.js';
-            window.ReactRouterDOM = ReactRouterDOM;
-        </script>
+        <script crossorigin src="https://unpkg.com/@babel/standalone@7.23.2/babel.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react@18.2.0/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js"></script>
+        <script crossorigin src="https://unpkg.com/@remix-run/router@1.11.0/dist/router.umd.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react-router@6.18.0/dist/umd/react-router.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-router-dom@6.18.0/dist/umd/react-router-dom.development.js"></script>
         <script type="text/babel" data-presets="react">
+            const { HashRouter, Routes, Route } = ReactRouterDOM;
 
             function Application() {
-
                 return (
                     <>
-                        <ReactRouterDOM.HashRouter>
-                            <ReactRouterDOM.Routes>
-                                <ReactRouterDOM.Route path="/" element={<p>1</p>} />
-                                <ReactRouterDOM.Route path="/test" element={<p>2</p>} />
-                            </ReactRouterDOM.Routes>
-                        </ReactRouterDOM.HashRouter>
+                        <HashRouter>
+                            <Routes>
+                                <Route index path="/" element={<p>Sample Text</p>} />
+                            </Routes>
+                        </HashRouter>
                     </>
                 );
             }
